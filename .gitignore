@@ -1,0 +1,26 @@
+# datasets
+data/
+*.csv
+
+# model files
+models/
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# notebook cache
+.ipynb_checkpoints/
+
+# python cache
+__pycache__/
+
+# env
+.env
+
+# vscode
+.vscode/
+
+# mac
+.DS_Store
