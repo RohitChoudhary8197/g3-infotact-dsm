@@ -1,192 +1,97 @@
-<<<<<<< HEAD
-# Contextual Predictive Maintenance (IoT Edge AI)
+---
+
+title: Engine Predictive Maintenance
+emoji: ⚙️
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_file: app.py
+pinned: false
+-------------
+
+---
+
+title: Engine Predictive Maintenance
+emoji: ⚙️
+colorFrom: blue
+colorTo: green
+sdk: docker
+sdk_version: "latest"
+app_file: app.py
+pinned: false
+-------------
+
+# AI-Powered Engine Predictive Maintenance System
+
+Flask + Machine Learning based predictive maintenance system.
+
 
 ## Internship Project
+
 Infotact Solutions — DSML Internship
 
 ---
 
-# Project Overview
+## Project Overview
 
-This project focuses on building an advanced Predictive Maintenance system using:
+This project focuses on developing an AI-powered Engine Predictive Maintenance System that predicts machine failures before they occur using Machine Learning.
 
-- IoT telemetry data
-- Contextual external signals
-- Time-series feature engineering
-- Imbalanced machine learning
-- LightGBM classification
-
-The goal is to predict machine failures before they happen.
+The application is built with **Flask**, **Scikit-learn**, and **SQLite**, providing a modern web dashboard where users can monitor engine health, predict failures, and maintain prediction history.
 
 ---
 
-# Week 1 — Day 1 Progress
+## Features
 
-## Completed Tasks
-
-### Repository Setup
-- Initialized GitHub repository
-- Created individual working branch
-- Added project structure
-- Configured .gitignore
-- Added requirements.txt
-
-### Project Planning
-- Reviewed official execution handbook
-- Understood Week 1 objectives
-- Planned Kaggle workflow
-- Prepared GitHub tracking structure
-
-### Dataset Planning
-Selected dataset:
-- AI4I Predictive Maintenance Dataset
-
-Planned features:
-- Rolling mean
-- Rolling standard deviation
-- Signal variance
-- Feature engineering
+* Engine Failure Prediction
+* Machine Learning Model
+* Prediction History
+* SQLite Database
+* Responsive Flask Web Application
+* Modern Dashboard UI
+* Real-Time Prediction Results
 
 ---
 
-## Week 1 — Day 2 Progress
+## Tech Stack
 
-### Completed
-- Exploratory Data Analysis
-- Correlation heatmap
-- Feature distributions
-- Advanced rolling window features
-- Statistical feature engineering
-- Data cleaning improvements
-
-### Added Features
-- Rolling mean
-- Rolling std
-- Rolling min/max
-- Variance-based analysis
-
-## Week 1 — Day 3 Progress
-
-### Completed
-
-- Built baseline Random Forest model
-- Performed train-test split
-- Generated classification report
-- Created confusion matrix
-- Analyzed feature importance
-
-### New Features
-
-- Temperature difference
-- Power proxy feature
-
-### Outcome
-
-Successfully trained first predictive maintenance model and evaluated performance.
-
-## Week 1 — Day 4 Progress
-
-### Completed
-
-- Studied class imbalance
-- Applied SMOTE oversampling
-- Trained improved Random Forest model
-- Compared model performance
-- Evaluated confusion matrix
-
-### Outcome
-
-Improved handling of rare machine failure cases through data balancing techniques.
-
-## Week 1 — Day 5 Progress
-
-### Completed
-
-- Simulated external contextual data
-- Ambient temperature generation
-- Factory load simulation
-- Humidity simulation
-- Contextual feature engineering
-
-### Ablation Study
-
-Compared:
-
-1. Internal telemetry only
-2. Telemetry + contextual signals
-
-### Outcome
-
-Verified impact of contextual variables on predictive maintenance performance.
-
-# Week 1 Objectives
-
-- IoT telemetry ingestion
-- Signal processing
-- Rolling window feature engineering
-- Exploratory data analysis
-- Baseline preprocessing pipeline
+* Python
+* Flask
+* Scikit-learn
+* Pandas
+* NumPy
+* SQLite
+* HTML
+* CSS
+* JavaScript
 
 ---
 
-# Tech Stack
+## Project Structure
 
-| Tool | Purpose |
-|------|----------|
-| Python | Development |
-| Pandas | Data Processing |
-| NumPy | Numerical Operations |
-| Matplotlib | Visualization |
-| Seaborn | Visualization |
-| LightGBM | Modeling |
-| Kaggle | Training Environment |
-| GitHub | Version Control |
-
----
-
-# Planned Weekly Roadmap
-
-## Week 1
-- Dataset ingestion
-- Rolling statistics
-- Signal processing
-
-## Week 2
-- Contextual data fusion
-- External feature integration
-
-## Week 3
-- LightGBM + SMOTE
-- Stratified cross-validation
-
-## Week 4
-- Noise sensitivity analysis
-- Threshold tuning
-- Evaluation dashboard
+```text
+engine-predictive-maintenance/
+│
+├── app.py
+├── database.py
+├── predictive_maintenance_model.pkl
+├── requirements.txt
+├── Dockerfile
+├── Procfile
+├── README.md
+│
+├── templates/
+├── static/
+├── data/
+```
 
 ---
 
-# GitHub Workflow
+## Deployment
 
-- Daily commits
-- Semantic commit messages
-- Individual branch development
-- Weekly progress tracking
+This application is deployed on **Hugging Face Spaces** using the **Docker SDK**.
 
 ---
 
-# Author
+## Author
 
-Rohan Thakar
-=======
----
-title: Engine Predictive Maintenance
-emoji: 📈
-colorFrom: green
-colorTo: green
-sdk: docker
-pinned: false
----
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
->>>>>>> a3dc954 (Fresh deployment)
+**Rohit Choudhary**
