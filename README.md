@@ -7,19 +7,7 @@ colorTo: green
 sdk: docker
 app_file: app.py
 pinned: false
--------------
-
 ---
-
-title: Engine Predictive Maintenance
-emoji: ⚙️
-colorFrom: blue
-colorTo: green
-sdk: docker
-sdk_version: "latest"
-app_file: app.py
-pinned: false
--------------
 
 # AI-Powered Engine Predictive Maintenance System
 
